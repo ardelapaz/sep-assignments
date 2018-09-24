@@ -1,0 +1,8 @@
+How does your data structure allow developers to access and manipulate the data?
+    In regards to the line.rb task, it allows for developers to retrieve general information about the data such as the middle of the line or checking to see if someone is in the line. In pixel.rb and screen.rb it's all about finding out what value is at specific points in single dimension and second dimension arrays which is the core concepet of storing and retreiving data.
+
+If a developer wanted to find a specific element in your data structure, how would you search for it?
+    I would search for it using binary search
+
+What other real-world data can each structure represent?
+    The line structure can represent a queue for something such as Bloc's 1:1 mentoring sessions on Mondays and Fridays.
