@@ -1,0 +1,5 @@
+Doubling the size of the underlying array is a terrible idea if it is for any real world application. Doubling the array leads to wasted storage
+and memory, and ultimately leads towards heavier code than necessary. Say you only need three more slots in your already sizable array of say 50, you now have
+(after duplicating the initial array) 47 open slots that may never be used, and is just taking up time and memory for even being created in the first place.
+This doesn't even take into account that with all the open spots, the old array will be copied into the new one, but everything will be wildly spaced out due
+to the now extra 47 spots available, which just isn't good in practice.
