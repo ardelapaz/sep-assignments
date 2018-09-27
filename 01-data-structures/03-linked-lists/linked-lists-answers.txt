@@ -1,0 +1,17 @@
+1. Spatial locality is the idea of keeping all of your data in one linear line, such as a linked list. It is a special case, and is known as keeping data in a one
+dimensional array or as mentioned previously, a linked list.
+
+2. Arrays are significantly faster to access a set element or delete an element since it doesn't have to traverse the whole 10,000 item list.
+
+"Array Creation"
+  0.000000   0.000000   0.000000 (  0.001917)
+"Node Creation"
+  1.656000   0.000000   1.656000 (  1.654680)
+"Array Access"
+  0.000000   0.000000   0.000000 (  0.000001)
+"Node Access"
+  0.000000   0.000000   0.000000 (  0.000200)
+"Array Delete"
+  0.000000   0.000000   0.000000 (  0.000003)
+"Node Delete"
+  0.000000   0.000000   0.000000 (  0.000460)
