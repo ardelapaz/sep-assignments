@@ -63,6 +63,19 @@ class SeparateChaining
     return key.sum % size
   end
 
+
+  # Print out the hash along with the load factor
+  def print_hash
+    (0..size()).each do |index|
+      if @hash[index] != nil
+        puts "index: #{index}"
+        @hash[index].print
+      end
+    end
+    lf = load_factor
+    puts "load factor: #{lf}"
+  end
+
   # Calculate the current load factor
   def load_factor
     size = size() + 0.0

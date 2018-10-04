@@ -40,11 +40,10 @@ class LinkedList
 
   # This method prints out a representation of the list.
   def print
-    current = @head
-    puts current.data
-    while (current.next != nil) 
-      current = current.next
-      puts current.data
+    node = @head
+    until node == nil do
+      puts "key: #{node.key} value: #{node.value}"
+      node = node.next
     end
   end
   
