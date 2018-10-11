@@ -52,15 +52,24 @@ class OpenAddressing
       return "Pair was not found"
     end
 
+    # Print out the hash along with the load factor
     def print_hash
       (0..size()).each do |index|
         if @hash[index] != nil
-          puts "index: #{i},  key: #{@hash[index].key}, value: #{@hash[index].value}"
+          puts "index: #{index},  key: #{@hash[index].key}, value: #{@hash[index].value}"
         end
       end
+      lf = load_factor
+      puts lf
+    end
+
+    # Calculate and return the load factor
+    def load_factor
+      size = size() + 0.0
+      return (@entries / size)
     end
   
-
+    # Find the next open index
     def next_open_index(index)
       (index...size()).each do |index|
         if @hash[index] == nil
