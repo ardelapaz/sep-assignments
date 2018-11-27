@@ -1,0 +1,15 @@
+inserting heap
+searching for element 5000 in heap
+  0.016000   0.000000   0.016000 (  0.001640)
+deleting a node
+  0.000000   0.000000   0.000000 (  0.002911)
+  4.656000   0.047000   4.703000 (  4.807950)
+
+inserting binary search tree
+searching for element 5000 in binary search tree
+  0.000000   0.000000   0.000000 (  0.000807)
+deleting a node
+  0.000000   0.000000   0.000000 (  0.000813)
+  3.750000   0.000000   3.750000 (  3.759251)
+
+In all tests from benchmarking, the numerical results are too close through multiple tests to conclude that one is better than the other in this situation with this given implementation. In a different environment, different numbers might result which would sway the favor in one direction or the other.
