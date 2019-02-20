@@ -107,8 +107,7 @@ class Bacon
 
 # Test entry Chris Penn
     def find_kevin_bacon(start, degrees = 1, checked_actors = [])
-        # How many layers deep to find Kevin Bacon
-        if start.name == "Kevin Bacon"
+-        if start.name == "Kevin Bacon"
             puts "You can't use Kevin Bacon as your actor for this! Try a different actor."
             return
         end
@@ -138,7 +137,7 @@ class Bacon
             end
         end
     end
-    # Smaller version of test case, tests to see if 
+    # Smaller version of test case, tests to see how many degrees each actor is from Kevin Bacon
     def test
         #  single = Node.new("Mike Myers", @actors["Mike Myers"])
         #  self.find_kevin_bacon(single)

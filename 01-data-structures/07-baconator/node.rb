@@ -4,6 +4,6 @@ class Node
   
     def initialize(name, hash)
         @name = name #name of actor
-        @flim_actor_hash = hash #movie hash of actor
+        @flim_actor_hash = hash #movie hash for actor
     end
   end
